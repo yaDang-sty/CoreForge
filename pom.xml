@@ -6,33 +6,19 @@
     <groupId>com.yadang.coreforge</groupId>
     <artifactId>coreforge</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
 
-    <name>core forge</name>
-    <description>core forge</description>
+    <name>CoreForge</name>
+    <description>CoreForge</description>
+    <modules>
+        <module>core-crutch</module>
+        <module>core-service</module>
+        <module>common-utils</module>
+    </modules>
 
     <properties>
         <java.version>17</java.version>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <version>3.4.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <version>3.4.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.8.25</version>
-        </dependency>
-    </dependencies>
 
 
 </project>

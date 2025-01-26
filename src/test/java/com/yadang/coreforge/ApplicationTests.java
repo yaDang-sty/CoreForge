@@ -1,4 +1,4 @@
-package com.yadang.coreforge;
+package com.yadang.corebean;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
