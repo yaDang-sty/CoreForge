@@ -14,11 +14,23 @@
         <module>core-crutch</module>
         <module>core-service</module>
         <module>common-utils</module>
+        <module>core-mapper</module>
+        <module>core-bean</module>
     </modules>
 
     <properties>
         <java.version>17</java.version>
     </properties>
 
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.4.0</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

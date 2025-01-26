@@ -12,19 +12,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>core-mapper</name>
     <description>core-mapper</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -33,6 +21,7 @@
             <groupId>com.yadang.coreforge</groupId>
             <artifactId>core-crutch</artifactId>
             <version>1.0.0</version>
+            <type>pom</type>
         </dependency>
 
     </dependencies>

@@ -8,8 +8,6 @@
         <artifactId>coreforge</artifactId>
         <version>1.0.0</version>
     </parent>
-
-    <groupId>com.yadang.coremapper</groupId>
     <artifactId>common-utils</artifactId>
 
     <properties>
@@ -23,6 +21,7 @@
             <groupId>com.yadang.coreforge</groupId>
             <artifactId>core-crutch</artifactId>
             <version>1.0.0</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
 
