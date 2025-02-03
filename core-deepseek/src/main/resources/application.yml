@@ -1,0 +1,4 @@
+deepseek:
+  api:
+    key: your-api-key  # \u66FF\u6362\u4E3A\u5B9E\u9645API\u5BC6\u94A5
+    url: https://api.deepseek.com/v1/chat/completions  # \u6839\u636EAPI\u6587\u6863\u8C03\u6574

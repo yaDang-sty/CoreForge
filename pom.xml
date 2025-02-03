@@ -16,6 +16,7 @@
         <module>common-utils</module>
         <module>core-mapper</module>
         <module>core-bean</module>
+        <module>core-deepseek</module>
     </modules>
 
     <properties>
